@@ -1,0 +1,208 @@
+/*the container must be positioned relative:*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    padding: 0 !important;
+    border:0;
+  }
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+  .select-selected {
+    background-color: #CCCCCC;
+    border-radius: 30px;
+}
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #000 transparent transparent transparent;
+  }
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #000 transparent;
+    top: 7px;
+  }
+  /*style the items (options), including the selected item:*/
+  .select-items div,
+  .select-selected {
+    color: #000;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: #CCCCCC;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+  section.select-city {
+    float: left;
+    display: inline-block;
+}
+
+section.controls.select-city-option-control ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 7px 15px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  margin-left: 7px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+// select menu end
+// ------------------------
+
+section#compare-hotel {
+  padding-bottom: 50px;
+}
+section.single-item-city-wrapper {
+  display: flex;
+  border: 1px solid #C0C0C0;
+  margin: 15px 0px;
+}
+
+.hotel-photo-bg {
+  background-image: url(http://via.placeholder.com/250x350);
+  background-color: #ededed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: auto;
+}
+section.select-city-pan {
+  margin-top: 25px;
+}
+
+section.select-city-pan p.find-hotel-num {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+section.hotel-photo-right {
+  padding: 15px;
+}
+
+section.hotel-photo-right h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+section.hotel-photo-right p span i {
+  font-size: 11px;
+}
+
+section.hotel-photo-right p {
+  text-transform: capitalize;
+  margin: 7px 0px;
+  font-size: 14px;
+}
+li.near-place-btn {
+  padding-right: 35px;
+  display: inline-flex;
+  position: relative;
+}
+li.near-place-btn::after {
+  position: absolute;
+  content: "";
+  background-color: #ccc;
+  width: 3px;
+  height: 100%;
+  top: 0;
+  right: 15px;
+}
+section.hotel-photo-right ul {
+  display: inline-flex;
+  margin-top: 15px;
+}
+section.right-onwords-btn a button {
+  border: 0;
+  background-color: #666666;
+  padding: 10px;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 13px;
+}
+section.hotel-photo-right ul li.near-place-btn a{
+  border: 2px solid #999999;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+  color: #666666;
+  text-transform: capitalize;
+  line-height: 25px;
+  border-radius: 5px;
+
+}
+
+section.review-box-left {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #999999;
+  text-align: center;
+  float: left;
+  position: absolute;
+  top: 52%;
+  transform: translate(-0%, -50%);
+}
+
+section.review-comment-right {
+  float: right;
+  margin-left: 40px;
+}
+
+section.review-comment-right h1 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+section.hotel-photo-bottom {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+section.left-onwords p {
+  font-size: 14px;
+  text-transform: capitalize;
+  position: relative;
+}
+
+section.left-onwords p span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+section.right-onwords-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-0%, -50%);
+}

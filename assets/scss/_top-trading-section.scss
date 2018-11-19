@@ -1,0 +1,198 @@
+
+.item-bg-1{
+    background-image: url(http://via.placeholder.com/275x350);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+ul.trading-menu {
+    border-bottom: 2px solid #C0C0C0;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+ul.trading-menu{}
+ul.trading-menu li{
+    margin: 0px 2px;
+    outline: 0;
+}
+ul.trading-menu li a{
+    border: 1px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 800;
+    position: relative;
+}
+ul.trading-menu li a.active::after{
+    width: 100%;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: blue;
+    margin-top: 15px;
+}
+ul.trading-menu li a span i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #1B3280;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #CCFFFF;
+}
+ul.trading-menu li a.active{
+    border: 1px;
+}
+ul.trading-menu li a.nav-link:hover{
+    border-color: #fff;
+    outline: 0;
+}
+.single-consert-item{
+    position: relative;
+    overflow: hidden;
+}
+.single-item-wrapper{
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.date {
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+.consert-item{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+}
+
+.item-heading{
+    margin-bottom: 15px;
+}
+.item-heading h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+.item-heading p{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+}
+.price{
+    margin-bottom: 15px;
+}
+.price p{
+    color: #fff;
+}
+.price p span.curency{
+    font-size: 35px;
+    font-weight: 800;
+    margin-right: 8px;
+
+}
+.ticket-book{}
+.ticket-book ul{}
+.ticket-book ul li{
+    display: block;
+    position: relative;
+    margin-left: 0px;
+}
+
+.ticket-book ul li::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    left: 0%;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.ticket-book ul li a{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 0px;
+    margin-left: 15px;
+}
+
+.load-more-btn{
+    display: block;
+    margin-top: 30px;
+}
+.load-more-btn button{
+    background-color: #666666;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.single-item-overlay{
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba($color: #068FF1, $alpha: 0.7);
+    transition: 1s all;
+}
+.single-consert-item:hover .single-item-overlay{
+    top:0;
+    transition: 1s;
+}
+.overlay-content{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.overlay-content ul li{
+    display: inline-block;
+    margin: 10px 0px;
+}
+.overlay-content ul li a{
+    display: block;
+    text-decoration: none;
+}
+.overlay-content ul li a button{
+    border: 0;
+    background-color: #fff;
+    padding: 20px;
+    color: #4388CC;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 35px;
+    display: block;
+}
+.overlay-content ul li a.view-detail{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    margin-left: 12px;
+}

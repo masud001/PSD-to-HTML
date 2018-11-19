@@ -1,0 +1,139 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+.header-menu li a{
+    text-align: center;
+}
+ul.header-menu li.nav-item.social{
+    text-align: center;
+    margin-top: 10px;
+}
+span.navbar-toggler-icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; content: "\f0c9";
+}
+section.slider-search{
+    width: 100%;
+}
+section.single-logo,
+.single-consert-item,
+article.work-single-item,
+.counting-item-wrapper{
+    margin: 15px 0px;
+}
+ul.trading-menu li a.active::after{
+    margin-top: 7px;
+}
+.carousel-content-bottom{
+    position: relative;
+}
+.event-booking-carousel .next-slide {
+    right: 5px;
+}
+.event-booking-carousel .prev-slide {
+    left: 0%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(16%, -50%);
+}
+.carousel-content-top h1 {
+    font-size: 25px;
+}
+.carousel-content-top p {
+    font-size: 15px;
+}
+.carousel-content-top ul li a {
+    font-size: 14px;
+}
+.content-bottom-left h3 span {
+    font-size: 25px;
+}
+.content-bottom-right a button {
+    padding: 16px;
+    font-size: 15px;
+}
+.carousel-content-bottom {
+    bottom: -2px;
+}
+.popular-location-carousel div.owl-nav {
+    top: -153px;
+}
+section.hotel-photo-right ul li.near-place-btn a{
+    font-size: 11px;
+}
+section.left-onwords p{
+    font-size: 14px;
+}
+section.left-onwords p span{
+    font-size: 20px;
+}
+section.right-onwords-btn a button{
+    font-size: 14px;
+}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-menu li a{
+        text-align: center;
+    }
+    ul.header-menu li.nav-item.social{
+        text-align: center;
+        margin-top: 10px;
+    }
+span.navbar-toggler-icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; content: "\f0c9";
+}
+section.slider-search{
+    width: 100%;
+}
+section.single-logo,
+.single-consert-item,
+article.work-single-item,
+.counting-item-wrapper{
+    margin: 15px 0px;
+}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-menu li a{
+        text-align: center;
+    }
+    ul.header-menu li.nav-item.social{
+        text-align: center;
+        margin-top: 10px;
+    }
+    span.navbar-toggler-icon::before {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; content: "\f0c9";
+    }
+    section.slider-search{
+        width: 100%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,137 @@
+.carousel-bg-1{
+    width: 100%;
+    height: 360px;
+    background-image: url(http://via.placeholder.com/550x360);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.event-booking-carousel div.disabled{
+    display: block !important;
+}
+.event-booking-carousel .owl-nav{
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+}
+.event-booking-carousel .prev-slide{
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.event-booking-carousel .next-slide{
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.nav-btn.prev-slide span i {
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #4388CC;
+    color: #fff;
+}
+.nav-btn.next-slide span i {
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: #4388CC;
+    color: #fff;
+}
+
+.item-wrapper {
+    border: 1px solid #000;
+}
+.carousel-content {
+    padding: 15px 15px 15px 0px;
+    position: relative;
+    height: 100%;
+}
+.carousel-content-top{}
+.carousel-content-top h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.carousel-content-top h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.carousel-content-top p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #304153;
+    margin-bottom: 30px;
+}
+.carousel-content-top ul{}
+.carousel-content-top ul li {}
+.carousel-content-top ul li a{
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 0px;
+    display: block;
+}
+.carousel-content-bottom {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    padding-right: 15px;
+}
+.content-bottom-left,
+.content-bottom-right{
+    display: inline-block;
+}
+.content-bottom-left p{
+    color: #000;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.content-bottom-left h3{
+    color: #000;
+    font-weight: 800;
+    font-size: 14px
+
+}
+.content-bottom-left h3 span{
+    font-size: 35px;
+}
+.content-bottom-left h3 span.to{
+    font-size: 30px;
+}
+.content-bottom-right{
+    float: right;
+}
+.content-bottom-right a button{
+    background-color: #4388CC;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border:0;
+    border-radius: 30px;
+}
+.carousel-img{
+    position: relative;
+}
+.carousel-img .date{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+

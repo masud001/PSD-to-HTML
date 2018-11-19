@@ -1,0 +1,32 @@
+section.counting-item-wrapper {
+    background-color: #CCCCCC;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+section.counting-item-wrapper h1 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0px;
+}
+
+section.counting-item-wrapper p {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #000;
+    margin: 5px 0px;
+}
+
+section.counting-item-wrapper a.view-btn {
+    background-color: #4388CC;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-top: 15px;
+}
